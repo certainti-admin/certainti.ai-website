@@ -1,0 +1,392 @@
+
+
+.blog {
+    display: flex;
+
+}
+
+
+.container {
+    display: flex;
+    color: #7A7A7A;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%;
+
+}
+
+.contents {
+    color: #7A7A7A;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%;
+    width: 250px;
+    padding-left: 20%;
+    padding-top: 3%;
+
+}
+
+.page-container {
+    color: #7A7A7A;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%;
+    width: 500px;
+    padding-top: 3.5%;
+    /* 25.6px */
+}
+
+h3 {
+    color: #000;
+}
+
+
+
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: #000000;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 130%;
+    text-align: center;
+}
+
+.heading-description {
+    position: absolute;
+    top: 30%;
+    width: 28%;
+    left: 35%;
+    text-align: center;
+    font-size: small;
+    font-family: 'Aktiv Grotesk Trial';
+    color: #7A7A7A;
+}
+
+.get_started {
+    position: absolute;
+    left: 35%;
+    top: 55%;
+    color: white;
+    background-color: #24b4aa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.get_started1 {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.background-image {
+    height: 400px;
+}
+
+a {
+    text-decoration-style: none;
+}
+
+.frame {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgb(39.31, 39.31, 39.31) 0%, rgb(24.44, 24.44, 24.44) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-color: #131313;
+    border-radius: 6px;
+    display: inline-flex;
+    gap: 8px;
+    padding: 2px 20px;
+
+    position: relative;
+}
+
+.frame .text-wrapper {
+    color: #ffffff;
+    font-family: "Aktiv Grotesk Trial-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 26.4px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.contact_sales-and-login {
+    position: relative;
+    left: 28%;
+    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #797979;
+    font-family: Aktiv Grotesk Trial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 165%;
+    padding-bottom: 8px;
+}
+
+.image1 {
+    position: absolute;
+    bottom: -15%;
+    right: 50%;
+    height: 300px;
+    width: 400px;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+
+.image3 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.image4 {
+    position: absolute;
+    top: 115%;
+    left: 50%;
+}
+
+.top_stories {
+    position: absolute;
+    top: 57%;
+    left: 18%;
+    color: #000;
+
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 44.8px */
+}
+
+.blog_category {
+    position: absolute;
+    top: 105%;
+    left: 18%;
+    color: #000;
+    width: 25%;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 44.8px */
+}
+
+
+.image-all {
+    display: flex;
+    margin-top: 50%;
+}
+
+.content {
+    position: absolute;
+    left: 48%;
+    top: 140%;
+    color: #000;
+    width: 37.3%;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 140%;
+    /* 56px */
+}
+
+.content-description {
+    position: absolute;
+    left: 48.5%;
+    top: 158%;
+    color: #7A7A7A;
+    width: 35%;
+    font-family: Aktiv Grotesk Trial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%;
+    /* 29.7px */
+}
+
+.group1 {
+    position: absolute;
+    left: 48%;
+    top: 170%;
+}
+
+.group2 {
+    position: absolute;
+    left: 68%;
+    top: 170%;
+}
+
+.our_vision {
+    position: absolute;
+    color: #000;
+    padding-top: 10px;
+    width: 90px;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.our_mission {
+    position: absolute;
+    color: #000;
+    padding-top: 10px;
+    width: 100px;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+
+}
+
+.our_vision_description {
+    position: absolute;
+    color: #7A7A7A;
+    top: 150%;
+    padding-top: 20px;
+    width: 200px;
+    font-family: Aktiv Grotesk Trial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 165%;
+
+}
+
+.heading-short_description {
+    position: absolute;
+    width: 28%;
+    top: 115%;
+    left: 18%;
+    font-size: small;
+    font-family: 'Aktiv Grotesk Trial';
+    color: #7A7A7A;
+
+}
+
+.image1_category {
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    color: #000;
+    width: 25%;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+    /* 29px */
+}
+
+.image2_category {
+    position: absolute;
+    left: 65%;
+    top: 95%;
+    color: #000;
+    width: 25%;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+    /* 29px */
+}
+
+.image3_category {
+    position: absolute;
+    left: 65%;
+    top: 120%;
+    color: #000;
+    width: 25%;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+}
+
+.latest-blogs_images {
+    display: flex;
+    position: absolute;
+    left: 11%;
+    height: 45%;
+    top: 150%;
+    gap: 5px;
+}
+
+.latest_blogs_image {
+    position: absolute;
+    left: 20%;
+    width: 100%px;
+}
+
+.latest_blog_heading {
+    color: #000;
+    position: absolute;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    bottom: -47%;
+    left: 15%;
+    /* 44.8px */
+}
+
+.latest_blogs_image1_heading {
+    color: #091135;
+    padding-top: 5px;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.latest_blogs_image1_heading_description {
+    color: #7A7A7A;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 14px;
+    width:55%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}

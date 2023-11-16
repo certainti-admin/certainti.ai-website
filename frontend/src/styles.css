@@ -1,0 +1,396 @@
+/* styles.css */
+li {
+    list-style: none;
+    color: #797979;
+    font-family: Aktiv Grotesk Trial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 165%;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+.dot {
+    position: absolute;
+    top: -8px;
+    left: 14px;
+}
+
+.square_dot {
+    display: flex;
+    height: 4px;
+    width: 7px;
+}
+
+.square_dot .rectangle {
+    background-color: #fd5707;
+    position: absolute;
+    height: 4px;
+    left: 63%;
+    top: 3%;
+    width: 6px;
+}
+
+.square_dot_2 {
+    height: 4px;
+    left: 89%;
+    position: absolute;
+    top: 3%;
+
+}
+
+.square_dot_3 {
+    height: 5px;
+    position: absolute;
+    width: 7px;
+    top: 35%;
+    left: 98%;
+}
+
+.ai {
+    position: absolute;
+    left: 108%;
+}
+
+.ai_dot {
+    position: absolute;
+    left: 68%;
+    top: 4%;
+}
+
+.menu-link ul li {
+    position: relative;
+    margin-bottom: 10%;
+    left: 50%;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.menu-link ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-link ul {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+
+}
+
+.nav {
+    width: 80%;
+    height: 3.5rem;
+    display: flex;
+    /* grid-template-columns: 10rem 1fr 2fr 1fr 10rem; */
+    background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-right: 20%;
+}
+
+.container {
+    display: flex;
+    color: #7A7A7A;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%;
+    flex-direction: column;
+
+}
+
+.contents {
+    color: #7A7A7A;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%;
+    width: 250px;
+    padding-left: 20%;
+    padding-top: 3%;
+
+}
+
+.page-container {
+    color: #7A7A7A;
+    position: relative;
+    left: 50%;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%;
+    width: 500px;
+    padding-top: 3.5%;
+    /* 25.6px */
+}
+
+h3 {
+    color: #000;
+}
+
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: #000000;
+    font-family: Aktiv Grotesk Ex Trial;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 130%;
+    text-align: center;
+}
+
+.background-image {
+    width: auto;
+    height: 60%;
+}
+
+a {
+    text-decoration-style: none;
+}
+
+.frame {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgb(39.31, 39.31, 39.31) 0%, rgb(24.44, 24.44, 24.44) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-color: #131313;
+    border-radius: 6px;
+    display: inline-flex;
+    gap: 8px;
+    padding: 2px 20px;
+
+    position: absolute;
+    top: 10%;
+}
+
+.frame .text-wrapper {
+    color: #ffffff;
+    font-family: "Aktiv Grotesk Trial-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 26.4px;
+    position: relative;
+}
+
+.contact_sales-and-login {
+    position: relative;
+    left: 28%;
+    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #797979;
+    font-family: Aktiv Grotesk Trial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 165%;
+    padding-bottom: 8px;
+}
+
+.form-box {
+    position: relative;
+    left: 20%;
+    display: flex;
+    width: 400px;
+    padding: 40px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.short-description {
+    width: 60%;
+}
+
+.input-field1 {
+    color: #000000;
+    font-family: "Aktiv Grotesk Ex Trial-Medium", Helvetica;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    font-weight: 500;
+}
+
+.input-field2 {
+    color: #000000;
+    font-family: "Aktiv Grotesk Ex Trial-Medium", Helvetica;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    gap: 100px;
+
+}
+
+.input-field3 {
+    color: #000000;
+    font-family: "Aktiv Grotesk Ex Trial-Medium", Helvetica;
+    margin-top: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 100px;
+
+
+}
+
+.input-field4 {
+    color: #000000;
+    font-family: "Aktiv Grotesk Ex Trial-Medium", Helvetica;
+    margin: 10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.input-field5 {
+    color: #000000;
+    font-family: "Aktiv Grotesk Ex Trial-Medium", Helvetica;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 105px;
+}
+
+.input-field6 {
+    color: black;
+
+}
+
+
+.contact-with-us {
+    position: relative;
+    top: 6%;
+    color: #000000;
+    font-family: "Aktiv Grotesk Trial-Medium", Helvetica;
+
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #E3E3E3;
+
+    background: #F9FAFC;
+    color: black;
+
+    padding: 5px;
+    font-family: Aktiv Grotesk Trial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.callback {
+    position: relative;
+    left: 25%;
+    margin-top: 30px;
+    color: white;
+    border: 5px solid aquamarine;
+    background-color: #24b4aa;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 3px;
+
+}
+
+.chat {
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left: 60%;
+
+}
+
+.connect-email {
+    position: absolute;
+    top: 70%;
+    width: 25%;
+    left: 60%;
+
+}
+
+.contact-no {
+    color: #03C3B6;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+.contact-email {
+    color: #03C3B6;
+
+    font-family: Aktiv Grotesk Trial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+
+.grid1 {
+    width: 20%;
+    position: relative;
+    left: 21%;
+    color: white;
+    text-align: star;
+
+}
+
+.footer-about {
+    position: relative;
+    left: 20.5%;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 5px;
+}
+
+.footer_dot {
+    position: absolute;
+    left: 23.9%;
+    bottom: -46.1%;
+    color: #03C3B6;
+
+}
+
+.footer_ai{
+    position: absolute;
+    left: 25%;
+    top: 140.8%;
+}
+
