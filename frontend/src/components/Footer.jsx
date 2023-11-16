@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "../styles/styles.css";
 import { Square_dot } from "./Dot.jsx";
 
 export const Footer = () => {

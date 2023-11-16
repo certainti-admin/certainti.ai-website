@@ -2,59 +2,12 @@
 
 .blog {
     display: flex;
-
 }
 
-
-.container {
-    display: flex;
-    color: #7A7A7A;
-
-    font-family: Aktiv Grotesk Trial;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 160%;
-
-}
-
-.contents {
-    color: #7A7A7A;
-
-    font-family: Aktiv Grotesk Trial;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 160%;
-    width: 250px;
-    padding-left: 20%;
-    padding-top: 3%;
-
-}
-
-.page-container {
-    color: #7A7A7A;
-
-    font-family: Aktiv Grotesk Trial;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 160%;
-    width: 500px;
-    padding-top: 3.5%;
-    /* 25.6px */
-}
-
-h3 {
-    color: #000;
-}
-
-
-
-.heading {
+.blog_heading {
     position: absolute;
     top: 20%;
-    left: 45%;
+    right: 47%;
     color: #000000;
     font-family: Aktiv Grotesk Ex Trial;
     font-size: 40px;
@@ -64,7 +17,7 @@ h3 {
     text-align: center;
 }
 
-.heading-description {
+.blog_heading_description {
     position: absolute;
     top: 30%;
     width: 28%;
@@ -75,25 +28,6 @@ h3 {
     color: #7A7A7A;
 }
 
-.get_started {
-    position: absolute;
-    left: 35%;
-    top: 55%;
-    color: white;
-    background-color: #24b4aa;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.get_started1 {
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    color: black;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-}
 
 .background-image {
     height: 400px;
@@ -147,7 +81,7 @@ a {
     padding-bottom: 8px;
 }
 
-.image1 {
+.top_stories_image1 {
     position: absolute;
     bottom: -15%;
     right: 50%;
@@ -156,13 +90,13 @@ a {
 
 }
 
-.image2 {
+.top_stories_image2 {
     position: absolute;
     top: 65%;
     left: 50%;
 }
 
-.image3 {
+.top_stories_image3 {
     position: absolute;
     top: 90%;
     left: 50%;

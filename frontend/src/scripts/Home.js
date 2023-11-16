@@ -1,8 +1,8 @@
 // import React,{useState} from "react";
-import "./style_home.css";
+import "../styles/style_home.css";
 // import { Footer } from "./Footer.jsx";
 
-import { Navbar } from "./Navbar.jsx";
+import { Navbar } from "../components/Navbar.jsx";
 
 const Home = () => {
     return (
@@ -41,11 +41,11 @@ const Home = () => {
 
                 <div className="layout_image">
                     <div className="image1">
-                        <img style={{ width: '150%', height: '110%' }} src="/image 32.png" alt="Description of the image" />
+                        <img style={{ width: '70%', height: '50%' }} src="/images/image 32.png" alt="Description of the image" />
                     </div>
-                    <div className="image_container"><img style={{ width: '400px', height: '400px' }} src="Rectangle 1194.png" alt="Description of the image" /></div>
+                    <div className="image_container"><img style={{ width: '400px', height: '400px' }} src="/images/Rectangle 1194.png" alt="Description of the image" /></div>
                     <div className="image2">
-                        <img style={{ width: '70%', height: '70%' }} src="/image 37.png" alt="Description of the image" />
+                        <img style={{ width: '70%', height: '70%' }} src="/images/image 37.png" alt="Description of the image" />
                     </div>
                     <div className="content">We make it effortlessly to track all user analytics</div>
                 </div>
@@ -126,16 +126,16 @@ const Home = () => {
                     <div className="sub_page_sub_container1">We simplify the process of monitoring user analytics, making it easy for tracking.</div>
                     <div className="sub_page_sub_container1_description">Now reinvented with Artificial Intelligence—Certainti is the first AI Native Data Provider. Enrich your records, reveal buying intent, and connect with your ideal customers.</div>
 
-                    <div className="sub_page_image"><img style={{ width: '500px', height: '300px' }} src="image 34.png" alt="Description of the image" /></div>
+                    <div className="sub_page_image"><img style={{ width: '500px', height: '300px' }} src="/images/image 34.png" alt="Description of the image" /></div>
                     <div className="sub_page_sub_container2">Consumer grade experience, enterprise level security</div>
 
                     <div className="sub_page_sub_container2_description">Now reinvented with Artificial Intelligence—Certainti is the first AI Native Data Provider. Enrich your records, reveal buying intent, and connect with your ideal customers.</div>
                     
                     <div className="sub_page_images">
-                        <div className="sub_page_image2"><img style={{ width: '300px', height: '150px' }} src="image 19.png" alt="Description of the image" /></div>
-                        <div className="sub_page_image3"><img style={{ width: '400px', height: '200px' }} src="image 35.png" alt="Description of the image" /></div>
+                        <div className="sub_page_image2"><img style={{ width: '300px', height: '150px' }} src="/images/image 19.png" alt="Description of the image" /></div>
+                        <div className="sub_page_image3"><img style={{ width: '400px', height: '200px' }} src="/images/image 35.png" alt="Description of the image" /></div>
                     </div>
-                    <div className="sub_page_image2"><img style={{ width: '300px', height: '150px' }} src="image 19.png" alt="Description of the image" /></div>
+                    <div className="sub_page_image2"><img style={{ width: '300px', height: '150px' }} src="/images/image 19.png" alt="Description of the image" /></div>
                 
 
                 <div className="sub_page_background_image">

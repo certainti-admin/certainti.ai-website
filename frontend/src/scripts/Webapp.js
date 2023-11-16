@@ -1,9 +1,9 @@
 import React,{useState} from "react";
-import "./styles.css";
-import { Footer } from "./Footer.jsx";
+import "../styles/App.css";
+import { Footer } from "../components/Footer.jsx";
 
-import { Navbar } from "./Navbar.jsx";
-import { Header } from "./Header.jsx";
+import { Navbar } from "../components/Navbar.jsx";
+import { Header } from "../components/Header.jsx";
 // import { Frame } from "./Login.jsx";
 
 const Home = () => {

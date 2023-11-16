@@ -1,6 +1,6 @@
 // Navbar.jsx
 import React from "react";
-import "./styles.css";
+import "../styles/styles.css";
 import { Frame } from "./Login.jsx";
 import { Label } from "./Label.jsx";
 import { Square_dot } from "./Dot.jsx";

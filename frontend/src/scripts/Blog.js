@@ -1,15 +1,15 @@
-import "./style_blog.css";
-import { Footer } from "./Footer.jsx";
+import "../styles/App.css";
+import { Footer } from "../components/Footer.jsx";
 
-import { Navbar } from "./Navbar.jsx";
-import { Header } from "./Header.jsx";
+import { Navbar } from "../components/Navbar.jsx";
+import { Header } from "../components/Header.jsx";
 
 const Blog = () => {
     return (
         <>
             <Navbar />
             <section className="blog">
-                <div className="header"><svg xmlns="http://www.w3.org/2000/svg" opacity="0.3" width="1000" height="250" viewBox="0 0 1423 360" fill="none">
+                <div className="blog_header"><svg xmlns="http://www.w3.org/2000/svg" opacity="0.3" width="1000" height="250" viewBox="0 0 1423 360" fill="none">
                     <g filter="url(#filter0_f_682_170)">
                         <path d="M586.803 180.548C586.803 265.822 517.675 334.95 432.402 334.95C347.128 334.95 278 265.822 278 180.548C278 95.2745 347.128 26.1465 432.402 26.1465C517.675 26.1465 586.803 95.2745 586.803 180.548Z" fill="#1CCDF3" />
                         <path d="M711.888 25.6579C711.888 95.0102 655.667 151.231 586.314 151.231C516.962 151.231 460.741 95.0102 460.741 25.6579C460.741 -43.6944 516.962 -99.9155 586.314 -99.9155C655.667 -99.9155 711.888 -43.6944 711.888 25.6579Z" fill="#03C3B6" />
@@ -27,23 +27,23 @@ const Blog = () => {
                         </filter>
                     </defs>
                 </svg>
-                    <div className="heading">
+                    <div className="blog_heading">
                         Blogs
                     </div>
-                    <div className="heading-description">Connect with the CERTAINTY.AI community at conferences, meetups, and
+                    <div className="blog_heading_description">Connect with the CERTAINTY.AI community at conferences, meetups, and
                         hackathons around the world..</div>
                 </div>
                 <div className="top_stories">Top stories</div>
-                <div className="image1">
+                <div className="top_stories_image1">
                     <img style={{ width: '70%', height: '70%' }} src="/Rectangle 5048.png" alt="Description of the image" />
 
                 </div>
                 <div className="image1_category">It has survived not only five centuries, but also the leap into electronic</div>
-                <div className="image2">
+                <div className="top_stories_image2">
                     <img style={{ width: '70%', height: '70%' }} src="/Rectangle 5049.png" alt="Description of the image" />
 
                 </div>
-                <div className="image3">
+                <div className="top_stories_image3">
                     <img style={{ width: '70%', height: '70%' }} src="/Rectangle 5050.png" alt="Description of the image" />
 
                 </div>
