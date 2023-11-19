@@ -1,0 +1,29 @@
+
+.App {
+  width: 100%; /* Full width of the parent */
+  margin: 0 auto; /* Centering if needed */
+  padding: 20px; /* Padding for internal spacing */
+}
+
+.navbar {
+  position: absolute;
+  left: 10%; /* Center the Navbar horizontally */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Push the brand to the left, centering other items */
+}
+
+@media (min-width: 600px) {
+  .App {
+      max-width: 600px; /* Maximum width */
+    
+  }
+}
+
+/* For larger screens */
+@media (min-width: 1024px) {
+  .App {
+      max-width: 1980px;
+  }
+}
